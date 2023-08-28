@@ -1,17 +1,19 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "startup-nextjs-ishan",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@next/font": "13.1.6",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "firebase": "^10.3.0",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
@@ -27,5 +29,9 @@
     "prettier-plugin-tailwindcss": "^0.2.2",
     "tailwindcss": "^3.2.4",
     "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=16.15.0 <17.0.0",
+    "yarn": ">=1.22.19 <1.23"
   }
 }
